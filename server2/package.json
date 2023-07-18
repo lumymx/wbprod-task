@@ -1,0 +1,19 @@
+{
+    "name": "server2",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "scripts": {
+      "build": "tsc",
+      "start": "nodemon -r dotenv/config index.ts"
+    },
+    "dependencies": {
+      "dotenv": "^10.0.0",
+      "fastify": "^3.21.1"
+    },
+    "devDependencies": {
+      "@types/node": "^16.11.7",
+      "@types/fastify": "^3.4.4",
+      "ts-node": "^10.4.0",
+      "typescript": "^4.4.4"
+    }
+  }
